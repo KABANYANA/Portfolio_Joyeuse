@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,500;0,700;1,100;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <div class="Background-image" id="blur" >   
+        <img src="joy.jpg">
+        <div class="description" >
+            
+            
+        <h3>Hi, my name is </h3>
+        <h1>JOYEUSE KABANYANA</h1>
+        <h2> I am a Software <span id="dev">DEVELOPER</span></p>
+        </div>
+
+        <div class="icons">
+            
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/joyeuse-kabanyana/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></i></a>
+                <div class="nav">
+                    <a href="#" onclick="toggle()"><button>MORE</button></a>
+                    
+                </div>
+            
+
+        </div>
+
+        
+
+    </div>
+    <div  id="about">
+        <h1>ABOUT ME</h1>
+        <br>
+        <p>Machine learning has enabled businesses to identify trends in consumer behavior and develop new goods.
+             Joyeuse is a software engineer who recognizes the growing opportunities in machine learning and wants
+              to use her skills to contribute to developing software solutions that are better at forecasting 
+              outcomes and influencing decision making across many industries.</p>
+              <br>
+              <br>
+              
+              <h1>SKILLS</h1>
+              <div class="skills">
+                <ul>
+                <li>PYTHON</li>
+                <li>JAVASCRIPT</li>
+                </ul>
+                <ul>
+                <li>MOBILE DEVELOPMENT</li>
+                <li>PRODUCT MANAGEMENT</li>
+                </ul>
+                <ul>
+                <li>UX RESEARCH</li>
+                <li>UI/UX DESIGN</li>
+                </ul>
+                <ul>
+                <li>PYTHON</li>
+                <li>JAVASCRIPT</li>
+                            </ul>
+                            <ul>
+                <li>NLP</li>
+                            </ul>
+                            <ul>
+                <li>MACHINE TRANSLATION</li>
+                            </ul>
+              </div>
+              <br>
+              <h1>PROJECTS</h1>
+              <div class="projects">
+                <div>
+                  <a><img src="lead.jpg"> </a> <h4>PREDICTIVE <br>MODEL</h4>
+                </div>
+                <div>
+              <a href="https://chatjoyeuse.vercel.app/"><img src="chat.jpg"> </a>  <h4>CHATBOT</h4>
+            </div>
+            <div>
+              <a href="https://elegant-baklava-cf8103.netlify.app/"><img src="green kiosk.jpg"></a> <h4>GREEN KIOSK</h4>
+            </div>
+            
+              <br>
+              <!-- <a href="https://app.slack.com/client/T04KDUZE1ED/C05224T7AJF"><img src="tweru.jpg"></a> <span><a><img src="tweru.jpg"></a></span><span><a><img src="tweru.jpg"></a></span>
+              <br> -->
+              </div>
+
+            <p id="about-close" onclick="toggle()">X</p>
+    </div>
+
+    <script type="text/javascript">
+        function toggle (){
+    var blur = document.getElementById('blur')
+    blur.classList.toggle('active')
+    var POP1 = document.getElementById('about')
+    POP1.classList.toggle('active')
+   
+
+}
+    </script>
+</body>
+</html>
